@@ -17,18 +17,22 @@ body {
     padding-top: 3em;
   }
 
-  #task-imput {
+  #task-input {
   display: inline-block;
   height: 10em;
   width: 30em;
   text-align: center;
   background-color: white;
-  padding: 3em 0 0 0 ;
+  padding: 1em 0 0 0 ;
   border: solid 2px ;
   border-radius: 5px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
   border-bottom: solid 1px;
   }
+
+  #task-input h1 {
+    font-weight: bold;
+  } 
 
   #new-task {
  height: 100%;
@@ -54,9 +58,9 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 20em;
-  text-align: center;
+  text-align: left;
   background-color: white;
-  padding: 0.5em 0 0.5em 0 ;
+  padding: 0.5em 0 0.5em 0.5em ;
   border: solid 2px ;
   border-radius: 5px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
